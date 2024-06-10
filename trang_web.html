@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bếp Trưởng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77c yellow solid 3px;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            margin: 10px 1.66%;
+            background: #e3e3e3;
+            text-align: center;
+        }
+        .box img {
+            max-width: 100%;
+        }
+        .box h3 {
+            margin: 10px 0;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Bếp Trưởng</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="showcase">
+        <div class="container">
+            <h1>Chào mừng đến với trang web của Bếp Trưởng</h1>
+            <p>Khám phá nghệ thuật ẩm thực cùng tôi!</p>
+        </div>
+    </section>
+    
+    <section id="main" class="container">
+        <h2 id="about">Giới thiệu</h2>
+        <p>Tôi là Bếp Trưởng. Tôi thích nghệ thuật thứ 7, tìm hiểu về thế giới động vật và nấu ăn. Món ăn nổi bật của tôi là trứng rán.</p>
+        
+        <div class="clearfix">
+            <div class="box">
+                <img src="https://via.placeholder.com/300" alt="Nghệ thuật thứ 7">
+                <h3>Nghệ thuật thứ 7</h3>
+                <p>Yêu thích điện ảnh và những bộ phim kinh điển.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/300" alt="Thế giới động vật">
+                <h3>Thế giới động vật</h3>
+                <p>Đam mê khám phá và học hỏi về động vật.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/300" alt="Trứng rán">
+                <h3>Món trứng rán</h3>
+                <p>Chuyên gia làm món trứng rán tuyệt hảo.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <p>Liên hệ với tôi qua Facebook: <a href="https://www.facebook.com/headmastersss" target="_blank">Facebook Bếp Trưởng</a></p>
+    </footer>
+</body>
+</html>
